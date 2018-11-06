@@ -8,7 +8,7 @@ let qrs = require('./models');
 app.use(cors());
 app.use(bodyParser.json());
 
-res.setHeader('Access-Control-Allow-Origin', 'https://bejoy-angular.herokuapp.com' );
+//res.setHeader('Access-Control-Allow-Origin', 'https://bejoy-angular.herokuapp.com' );
 
 const url = "mongodb://bejoyrosily:survey1@ds149279.mlab.com:49279/survey1";
 
